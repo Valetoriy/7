@@ -2,5 +2,5 @@ mmiva: 0/3, 0/1p
 piaps: 0/2
 iot: 1/2
 taifa: 0/2
-prav: 0/?, 0/1p
+prav: 0/?, 1/1p
 obl: 2/4
