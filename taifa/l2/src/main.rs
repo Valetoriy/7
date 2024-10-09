@@ -9,20 +9,24 @@ fn check_input(input: &str) -> (char, bool) {
                 '1' => state = '2',
                 '2' => state = '2',
                 '3' => state = '3',
+                '4' => state = '4',
+                '5' => state = '5',
                 _ => (),
             },
             '1' => match state {
-                '0' => state = '3',
-                '1' => state = '3',
-                '2' => state = '2',
-                '3' => state = '3',
+                '0' => state = '4',
+                '1' => state = '5',
+                '2' => state = '3',
+                '3' => state = '2',
+                '4' => state = '5',
+                '5' => state = '4',
                 _ => (),
             },
             _ => (),
         }
     }
 
-    if state == '2' {
+    if state == '2' || state == '3' {
         (state, true)
     } else {
         (state, false)
