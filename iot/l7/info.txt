@@ -1,1 +1,8 @@
 MPU-6050 - акселерометр, гироскоп, магнитометр
+- matplotlib
+- AGxyz
+- Apyr (A_orient)
+- Coord: A_Position + G_Orientation
+- fast protocol
+- 3D-пульт для VR/AR
+. Вывод
