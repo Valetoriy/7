@@ -1,7 +1,7 @@
 mmiva: 3/3l 0/2p 2/2d
-piaps: 0/3l 1/5p
+piaps: 0/3l 4/5p
 pzhc: 1/1l 3/4p
-iot: 6/8
+iot: 8/9
 taifa: 6/6
 prav: 1/1d
 obl: 4/4l 3/6p
