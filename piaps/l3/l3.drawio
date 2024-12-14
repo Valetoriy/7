@@ -1,0 +1,663 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36" version="24.7.17">
+  <diagram name="Страница — 1" id="KuF1aNF__Dn9vjjgXvMM">
+    <mxGraphModel dx="986" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-2" value="Разработчик ПО" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-4" value="Разработка программы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-5" value="Использование ресурсов микроконтроллера" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-6" value="Взаимодействие с LCD-дисплеем" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-7" value="Выполнение программы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-8" value="Обновление состояния игрового мира" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-9" value="Обработка пользовательского ввода" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="404" y="210" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-10" value="Отображение игры на LCD-дисплее" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-17" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-4" target="JjOBAPiL2dtptpmDhJaX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="200" as="sourcePoint" />
+            <mxPoint x="410" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-33" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-17">
+          <mxGeometry x="-0.0867" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-18" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-4" target="JjOBAPiL2dtptpmDhJaX-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="171" as="sourcePoint" />
+            <mxPoint x="244" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-18">
+          <mxGeometry x="0.026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-19" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-7" target="JjOBAPiL2dtptpmDhJaX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="165" as="sourcePoint" />
+            <mxPoint x="390" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-19">
+          <mxGeometry x="-0.0432" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-7" target="JjOBAPiL2dtptpmDhJaX-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="130" as="sourcePoint" />
+            <mxPoint x="310" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-20">
+          <mxGeometry x="-0.2021" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-21" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-8" target="JjOBAPiL2dtptpmDhJaX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="84" as="sourcePoint" />
+            <mxPoint x="555" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-21">
+          <mxGeometry x="-0.0973" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-8" target="JjOBAPiL2dtptpmDhJaX-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="551" y="174" as="sourcePoint" />
+            <mxPoint x="509" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-22">
+          <mxGeometry x="0.0038" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-1" target="JjOBAPiL2dtptpmDhJaX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="390" as="sourcePoint" />
+            <mxPoint x="480" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-27" value="Нажатие кнопки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-23">
+          <mxGeometry x="-0.045" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-10" target="JjOBAPiL2dtptpmDhJaX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="806" y="400" as="sourcePoint" />
+            <mxPoint x="720" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-2" target="JjOBAPiL2dtptpmDhJaX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="376" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-35" value="Игровой мир" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="640" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-36" value="+ player_pos: i32&lt;div&gt;+ obstacle_pos: [i32]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-35">
+          <mxGeometry y="26" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-35">
+          <mxGeometry y="70" width="130" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-38" value="+ shift_obstacles()&lt;div&gt;+ new_obstacle()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-35">
+          <mxGeometry y="78" width="130" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-39" value="LCD-дисплей" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-40" value="- width: u8&lt;div&gt;- height: u8&lt;/div&gt;&lt;div&gt;- buf: [LcdChar]&lt;/div&gt;&lt;div&gt;- characters: [LcdChar]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-39">
+          <mxGeometry y="26" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-39">
+          <mxGeometry y="90" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-42" value="+ new_char(c: LcdChar)&lt;div&gt;+ print(txt: &amp;amp;str)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-39">
+          <mxGeometry y="98" width="140" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-43" value="LcdChar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="430" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-44" value="- buf: [bool; 40]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-43">
+          <mxGeometry y="26" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-43">
+          <mxGeometry y="50" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-46" value="+ new(buf: &amp;amp;[bool]): LcdChar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-43">
+          <mxGeometry y="58" width="170" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-48" value="I2C" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="670" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-49" value="- sda_pin: u8&lt;div&gt;- scl_pin: u8&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-48">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-48">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-51" value="&lt;div&gt;+ new(sda: u8, scl: u8): I2C&lt;/div&gt;+ send(buf: &amp;amp;[u8])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-48">
+          <mxGeometry y="68" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-52" value="HAL" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="430" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-53" value="- registers: [u8]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-52">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-52">
+          <mxGeometry y="50" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-55" value="+ delay(ms: u32)&lt;div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JjOBAPiL2dtptpmDhJaX-52">
+          <mxGeometry y="58" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-52" target="JjOBAPiL2dtptpmDhJaX-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="610" as="sourcePoint" />
+            <mxPoint x="474" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-60" value="Регулирует частоту обновления" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-56">
+          <mxGeometry x="-0.115" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-39" target="JjOBAPiL2dtptpmDhJaX-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="730" as="sourcePoint" />
+            <mxPoint x="183" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-62" value="Визуализирует" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-57">
+          <mxGeometry x="-0.1735" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-39" target="JjOBAPiL2dtptpmDhJaX-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="790" as="sourcePoint" />
+            <mxPoint x="514" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-64" value="Отправляет&lt;div&gt;данные&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-58">
+          <mxGeometry x="-0.0838" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-39" target="JjOBAPiL2dtptpmDhJaX-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494" y="650" as="sourcePoint" />
+            <mxPoint x="569" y="681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-63" value="Хранит" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-59">
+          <mxGeometry x="0.0576" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-66" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="164" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-67" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-68" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-69" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-70" value="0..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="539" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509.96999999999997" y="1455" />
+              <mxPoint x="509.96999999999997" y="1135" />
+            </Array>
+            <mxPoint x="642.47" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-112" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="395" y="810" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-112" target="JjOBAPiL2dtptpmDhJaX-156">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-156" target="JjOBAPiL2dtptpmDhJaX-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-161" value="Микроконтроллер и программа готовы к работе" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-160">
+          <mxGeometry x="-0.1829" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-156" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Инициализация&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="870" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-159" target="JjOBAPiL2dtptpmDhJaX-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-164" value="Создан пустой игровой мир с персонажем" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-163">
+          <mxGeometry x="-0.259" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-159" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Начало игры&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="960" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-162" target="JjOBAPiL2dtptpmDhJaX-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-169" value="Считано состояние кнопки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-166">
+          <mxGeometry x="-0.1264" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-162" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Пользовательский ввод&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1045" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-165" target="JjOBAPiL2dtptpmDhJaX-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1172" />
+              <mxPoint x="270" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-168" value="Персонаж касается&lt;div&gt;препятствия&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-167">
+          <mxGeometry x="0.0268" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-165" target="JjOBAPiL2dtptpmDhJaX-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-172" value="Препятствия и персонаж&lt;div&gt;переместились&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-171">
+          <mxGeometry x="-0.1862" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-165" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Обновление игрового мира&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1145" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-170" target="JjOBAPiL2dtptpmDhJaX-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-176" value="LCD-дисплей обновился" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-175">
+          <mxGeometry x="-0.116" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-170" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Вывод данных на LCD-дисплей&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1250" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-174" target="JjOBAPiL2dtptpmDhJaX-162">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1380" />
+              <mxPoint x="560" y="1072" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-178" value="Прошло 100&lt;div&gt;миллисекунд&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-177">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-174" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Временная задержка&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1350" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-220" target="JjOBAPiL2dtptpmDhJaX-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-220" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="356" y="1450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-222" target="JjOBAPiL2dtptpmDhJaX-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-222" value="Микроконтроллер и программа инициализируются" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-258" target="JjOBAPiL2dtptpmDhJaX-227">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="372" y="1740" />
+              <mxPoint x="372" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-224" value="Создаются пустой игровой мир и персонаж" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-227" target="JjOBAPiL2dtptpmDhJaX-232">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-227" target="JjOBAPiL2dtptpmDhJaX-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-227" value="Нажата кнопка?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="1764" width="110" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-230" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406.5" y="1764" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-231" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326.5" y="1830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-232" target="JjOBAPiL2dtptpmDhJaX-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="526.5" y="1916" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="526.5" y="1891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-232" value="Изменение позиции персонажа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466.5" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-234" target="JjOBAPiL2dtptpmDhJaX-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-234" value="Препятствия переместились" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="1946" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-238" target="JjOBAPiL2dtptpmDhJaX-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-238" value="LCD-дисплей обновился" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="2141" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-239" target="JjOBAPiL2dtptpmDhJaX-258">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="636" y="1680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="606" y="2262" />
+              <mxPoint x="606" y="1711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-239" value="Прошло 100 миллисекунд" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="2232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-242" target="JjOBAPiL2dtptpmDhJaX-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-242" target="JjOBAPiL2dtptpmDhJaX-224">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275.00000000000045" y="2010.0000000000005" as="sourcePoint" />
+            <mxPoint x="270" y="1630.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="2076" />
+              <mxPoint x="250" y="1631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-242" value="Персонаж столкнулся с препятствием?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="2040" width="110" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-245" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="2046" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-247" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326.5" y="2101" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-253" target="JjOBAPiL2dtptpmDhJaX-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-253" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.5" y="1870" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjOBAPiL2dtptpmDhJaX-224" target="JjOBAPiL2dtptpmDhJaX-258">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371" y="1660" as="sourcePoint" />
+            <mxPoint x="372" y="1764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-258" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="1690" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-286" value="Игровой мир&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%9F%D1%80%D0%BE%D1%88%D0%BB%D0%BE%20100%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22311.5%22%20y%3D%222232%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2360" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-287" value="LCD-дисплей" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="2360" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-288" value="HAL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="2360" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-289" value="I2C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="2360" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-290" value="Программа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="2360" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-292" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="JjOBAPiL2dtptpmDhJaX-298">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="2940" as="sourcePoint" />
+            <mxPoint x="80" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-293" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="JjOBAPiL2dtptpmDhJaX-290">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2940" as="sourcePoint" />
+            <mxPoint x="222.83" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-294" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="JjOBAPiL2dtptpmDhJaX-286">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="2940" as="sourcePoint" />
+            <mxPoint x="386.5" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-295" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="JjOBAPiL2dtptpmDhJaX-287">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536" y="2940" as="sourcePoint" />
+            <mxPoint x="536.25" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-296" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="JjOBAPiL2dtptpmDhJaX-289">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659" y="2940" as="sourcePoint" />
+            <mxPoint x="659" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-297" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="JjOBAPiL2dtptpmDhJaX-288">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="762" y="2940" as="sourcePoint" />
+            <mxPoint x="761.58" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-298" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2360" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-299" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2400" as="sourcePoint" />
+            <mxPoint x="765" y="2400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-300" value="Настройка выводов микроконтроллера" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-299">
+          <mxGeometry x="-0.0722" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-303" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2430" as="sourcePoint" />
+            <mxPoint x="534" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-304" value="Создание пользовательских символов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-303">
+          <mxGeometry x="-0.0722" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-307" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2460" as="sourcePoint" />
+            <mxPoint x="383" y="2460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-311" value="Инициализация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-307">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-313" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2550" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-321" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="77" y="2520" as="sourcePoint" />
+            <mxPoint x="225" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-322" value="Взаимодействие&lt;div&gt;с кнопкой&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-321">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-323" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2600" as="sourcePoint" />
+            <mxPoint x="383" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-324" value="Изменение позиции&lt;div&gt;персонажа&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-323">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-325" value="[Кнопка нажата]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2550" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-327" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2660" as="sourcePoint" />
+            <mxPoint x="383" y="2660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-328" value="Перемещение&lt;div&gt;препятствий&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-327">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-330" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2690" width="560" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-331" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="2740" as="sourcePoint" />
+            <mxPoint x="384" y="2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-332" value="Сброс данных" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-331">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-333" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="2820" as="sourcePoint" />
+            <mxPoint x="535" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-334" value="Визуализация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-333">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-335" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="2850" as="sourcePoint" />
+            <mxPoint x="655" y="2850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-336" value="Отправка&lt;div&gt;данных&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-335">
+          <mxGeometry x="-0.045" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-337" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="2880" as="sourcePoint" />
+            <mxPoint x="765" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-338" value="Задержка 100 миллисекунд" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JjOBAPiL2dtptpmDhJaX-337">
+          <mxGeometry x="-0.0722" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-340" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;dashPattern=1 1;fillColor=#1ba1e2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="216" y="2770" as="sourcePoint" />
+            <mxPoint x="776" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-341" value="[Столкновение с препятствием]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400.5" y="2690" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-342" value="[Отсутствие столкновения]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="2770" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-344" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="2470" width="720" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-345" value="Игровой мир&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%9F%D1%80%D0%BE%D1%88%D0%BB%D0%BE%20100%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22311.5%22%20y%3D%222232%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2940" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-346" value="LCD-дисплей" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="2940" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-347" value="HAL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="2940" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-348" value="I2C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="2940" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-349" value="Программа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="2940" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JjOBAPiL2dtptpmDhJaX-350" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2940" width="83.5" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
